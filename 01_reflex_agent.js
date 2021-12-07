@@ -17,7 +17,7 @@ function test(states){
        {
        		if(flag)
 		{
-            		document.getElementById("algoritmo").innerHTML+="<br>";
+            		document.getElementById("log").innerHTML+="<br>";
             		return;
         	}
 	       else
