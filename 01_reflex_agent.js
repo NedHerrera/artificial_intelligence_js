@@ -12,7 +12,7 @@ function test(states){
        var location = states[0];		
        var state = states[0] == "A" ? states[1] : states[2];
        var action_result = reflex_agent(location, state);
-       document.getElementById("algoritmo").innerHTML+="<br> State: ".concat(states[1]).concat("/").concat(states[2]).concat("<br>Sector: ").concat(location).concat(" / Action: ").concat(action_result);	
+       document.getElementById("log").innerHTML+="<br> State: ".concat(states[1]).concat("/").concat(states[2]).concat("<br>Sector: ").concat(location).concat(" / Action: ").concat(action_result);	
        if(states[1]=="CLEAN" && states[2]=="CLEAN")
        {
        		if(flag)
